@@ -1,0 +1,16 @@
+name: pecg_tut
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - seaborn
+  - pip:
+    - mne
+    - scipy
+    - wfdb
+    - pecg
